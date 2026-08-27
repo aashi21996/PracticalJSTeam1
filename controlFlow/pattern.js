@@ -10,6 +10,7 @@ for(j=1;j<=i;j++){
 console.log(pattern);
 }
 
+
 //Right-Aligned Right Triangle
 
 let rows=5;
