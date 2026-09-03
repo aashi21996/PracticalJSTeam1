@@ -65,7 +65,7 @@ const midIndex = Math.floor(arrayMid.length / 2);
 console.log(midIndex);
 console.log(arrayMid[4]);
 
-//find duplicate
+//find duplicate (query)
 const numbers = [1, 2, 3, 2, 4, 1];
 const seen = [];
 const duplicates = [];
@@ -88,3 +88,23 @@ let input = prompt(`enter ${i+1} input`);
 arr.push(Number (input));
 }
 console.log("final arr" ,arr);
+
+//find max and min value in array using for loop
+const numberss = [23, 5, 87, 12, 99, -4, 42];
+if (numberss.length === 0) {
+  console.log("Array is empty");
+} else {
+  let min = numberss[0];
+  let max = numberss[0];
+
+  for (let i = 1; i < numberss.length; i++) {
+    if (numberss[i] > max) {
+      max = numberss[i];
+    }
+    if (numberss[i] < min) {
+      min = numberss[i];
+    }
+  }
+  console.log("Min value:", min); // -4
+  console.log("Max value:", max); // 99
+}
