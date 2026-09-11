@@ -1,0 +1,69 @@
+console.log("Pehle yeh print hoga.");
+
+// setTimeout ka use
+setTimeout(function() {                                  //standerd function of java script : jisse delay crete karte h
+    console.log("Yeh 4 second baad print hoga!");
+}, 4000); // 2000 milliseconds = 2 seconds
+
+console.log("Doosra yeh print hoga (yeh wait nahi karega).");
+
+//
+
+function parent(){
+let a =6;
+let b=2;
+setTimeout(function()
+    {
+        let c=a*b;
+        console.log("c=",c);
+    },2000);
+a=7;
+}
+parent();
+
+//Callback in Synchronous way
+
+function sukh(name, dance){
+    console.log("hi"+name);
+
+dance();
+}
+function jeevan()
+{
+    console.log("hi done");
+}
+sukh("ram" , jeevan);
+
+//Asynchronous Callback Example
+//with parameter with argument
+function geet (userId,callbackWhenDone) {
+    console.log("wait for me");
+
+setTimeout (function(){
+ let userData = { id: userId, name: "Rahul", age: 16 };
+callbackWhenDone(userData);
+
+},4000);
+}
+function jayash(data)
+{
+    console.log("let's dance",data);
+}
+
+geet (101,jayash);
+console.log("i am happy");
+
+//no parameter no argument
+
+function parentFunct(){
+    console.log("Hello parent called");
+    setTimeout(function(){
+        console.log("callback fucntion called");
+    },2000);
+}
+
+//parentFunct();
+console.log("before call");
+setTimeout(parentFunct,3000);
+console.log("after call");
+

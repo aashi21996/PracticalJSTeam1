@@ -99,7 +99,7 @@ finally{                                        //SyntaxError: Unexpected token 
 }
 */
 
-//in java script error an dexception both are same thing
+//in java script error and exception both are same thing
 //6 types of error in java script
 
 //1. A ReferenceError occurs if you use (reference) a variable that does not exist.
