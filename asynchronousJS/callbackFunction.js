@@ -67,3 +67,9 @@ console.log("before call");
 setTimeout(parentFunct,3000);
 console.log("after call");
 
+//2d array 
+//character value ascii value of A
+/* x y z
+   a b
+   c*/
+//call back hell
