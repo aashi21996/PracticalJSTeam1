@@ -1,6 +1,7 @@
 const fruits = ["apple","banana","grapes"];
 console.log(fruits[1]);
 
+
 const veg =["onion" , "tomato","gar;ic", "potato"];
 console.log(veg.length);
 
