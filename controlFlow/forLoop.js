@@ -8,6 +8,7 @@ for(let i=0;i<=10;i++)
 }
 console.log("stops here");
 
+
 // print i from 10 to 1
 for(let i=10 ; i>=0 ; i--)
 {
