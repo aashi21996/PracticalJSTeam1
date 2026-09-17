@@ -22,7 +22,7 @@ console.log(iterator1.next()); // { value: undefined, done: true }
 
 //
 // 1. Ek unique Symbol banaya
-const secretKey = Symbol("id");
+const secretKey = Symbol();
 
 const user = {
   name: "Rahul",
@@ -34,6 +34,7 @@ user[secretKey] = 998877; // Secret ID
 console.log(Object.keys(user)); // Output: ['name', 'age']  (secretKey nahi dikhega!)
 // 4. Sirf wahi access kar sakta hai jiske paas 'secretKey' Symbol hai
 console.log(user[secretKey]);   // Output: 998877
+
 
 
 
