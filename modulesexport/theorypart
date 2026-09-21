@@ -1,0 +1,9 @@
+/*JavaScript me Jab aapka OOP code bada hone lagta hai, toh aap saari classes aur objects ko ek hi file me nahi rakhte. Code ko alag-alag files me baantne aur ek file ki Class ko doosri file me use karne ke liye Modules (Export / Import) ka use hota hai.
+IN Short :
+export: Apni Class ya function ko doosri file ke liye available karwana.
+import: Kisi doosri file se Class ya function ko apni file me laana.*/
+
+/*JavaScript me Export 2 tarike se hota hai:
+Named Export (Ek file se multiple classes/functions export karne ke liye)
+Default Export (Ek file se sirf ek main Class export karne ke liye)*/
+
