@@ -192,3 +192,9 @@ static checkEngine() {
 }
 const c1 = new Car1("BMW");
 Car1.checkEngine(); // Output: Checking undefined
+
+//mutiple inheritance
+//overloading poly
+//prototype
+//getter setter
+//implicit

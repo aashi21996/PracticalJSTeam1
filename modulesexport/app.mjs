@@ -4,3 +4,4 @@ const c1 = new Circle(5);
 console.log(c1.getArea()); // Output: 78.53...
 const s1 = new Square(4);
 console.log(s1.getArea()); // Output: 16
+//module.export=file name
