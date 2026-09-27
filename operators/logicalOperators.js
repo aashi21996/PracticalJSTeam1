@@ -11,7 +11,6 @@ console.log("Cat" && "Dog"); // o/p- Dog (Both truthy -> returns last)
 console.log(0 && "Dog");     // o/p- 0     (Stops at 0, the first falsy)
 console.log("Cat" && null);  // o/p- null  (Stops at null, the first falsy)
 
-//--------------------------------------------------------------------------------------------------------------------
 //Logical OR (||)
 //The || operator evaluates expressions from left to right.
 //Boolean behavior: Returns true if at least one operand is truthy.
@@ -30,7 +29,6 @@ let userNickname = "";
 let displayName = userNickname || "Guest"; 
 console.log(displayName); // o/p- Guest (because "" is falsy)
 
-//-----------------------------------------------------------------------------------------------
 //Nullish Coalescing (??)
 //The ?? operator was added to fix a specific issue with ||.
 //While || treats all falsy values (0, "", false) as missing data, ?? only treats null and undefined as missing data ("nullish").
@@ -49,7 +47,6 @@ console.log(s); // o/p- 0 (0 is valid, not null or undefined)
 let user= null;
 console.log(user ?? "Standard User"); // o/p- "Standard User"
 
-//-----------------------------------------------------------------------------------------------------------------
 //Logical NOT (!)
 //The ! operator converts a value to its opposite boolean state.
 //Single NOT (!): Converts truthy to false and falsy to true.
@@ -64,7 +61,6 @@ console.log(!!"Hello"); // o/p- true
 console.log(!!0);       // o/p- false
 console.log(!![]);      // o/p- true (Arrays are truthy)
 
-//---------------------------------------------------------------------------------------------------
 //Operator Precedence (Order of Execution)
 //When combining logical operators without parentheses, JavaScript evaluates them in this order:
 //! (Highest)

@@ -11,10 +11,7 @@ if (user) {
     console.log("no user"); 
 } //o/p- no user
 
-
-
-
-
+//example
 let y="ss";
 if(y)
 {console.log(y);

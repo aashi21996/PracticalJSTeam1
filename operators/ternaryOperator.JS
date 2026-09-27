@@ -6,7 +6,7 @@ let y=20;
 let s= y>=18 ? "yes" : "no";
 console.log(s);
 
-//
+//example
 const score = 85;
 
 const grade = score >= 90 ? "A" 
