@@ -47,14 +47,16 @@ for(;i>0;i--)
 }
 
 // nested for loop
-for (x=0 ; x<=8; x+=2)
+let x1;
+let y;
+for (x1=0 ; x1<=8; x1+=2)
 {
     for(y=0 ; y<=9; y+=3)
     {
         console.log("hey print y ", y);
     
     }
-    console.log("print value of x", x);
+    console.log("print value of x", x1);
 }
 
 // two veriables at a time

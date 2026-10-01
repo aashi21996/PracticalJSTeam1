@@ -2,12 +2,12 @@
 
 //charAt(index):Returns the character at the specified index.
 let str = "javascript";
-mid=str.charAt(4);
+let mid=str.charAt(4);
 console.log(mid);
 
 //charCodeAt(index):Returns the UTF-16 code (integer) of the character at the given index.
 let str1 = "javascript";
-mid1=str1.charCodeAt(4);
+let mid1=str1.charCodeAt(4);
 console.log(mid1);
 
 //Case Conversion
@@ -26,14 +26,14 @@ console.log(mid3);
 
 //indexOf(searchValue, start):Returns the index of the first occurrence of a substring. Returns -1 if not found.
 let str4 = "hi i am learning javascript"
-mid4=str4.indexOf("javascript");
+let mid4=str4.indexOf("javascript");
 console.log(mid4);
-mid5=str4.indexOf("aashi");
+let mid5=str4.indexOf("aashi");
 console.log(mid5);
 
 //lastIndexOf(searchValue, start):Returns the index of the last occurrence of a substring. Searches backward.
 let str6 = "hi javascript i am learning javascript"
-mid6=str6.lastIndexOf("javascript");
+let mid6=str6.lastIndexOf("javascript");
 console.log(mid6);
 
 //Extracting String Sections

@@ -36,3 +36,18 @@ sayHello(); // ReferenceError: Cannot access 'sayHello' before initialization
 const sayHello = () => {
   console.log("Hello!");
 };
+
+
+sayHello();
+function sayHello() {
+  console.log("Hello!");
+}
+
+sayHi(); // TypeError: sayHi is not a function
+    var sayHi = function() {
+    console.log("Hi!");
+    };
+//
+  let x=2;
+	         let y='2';
+			 console.log(x===y);  

@@ -1,7 +1,8 @@
 //Objects are variables that can store both values and functions.
 //Values are stored as key:value pairs called properties.
 //Functions are stored as key:function() pairs called methods.
-
+//An Object in JavaScript is a collection of related data and functionality stored as key-value 
+// pairs (where keys are called properties, and functions inside objects are called methods).
 //1. Object Literal ( most Common)
 
 const student={

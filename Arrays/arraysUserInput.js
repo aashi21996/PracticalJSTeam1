@@ -2,7 +2,7 @@ const fruits = ["apple","banana","grapes"];
 console.log(fruits[1]);
 
 
-const veg =["onion" , "tomato","gar;ic", "potato"];
+const veg =["onion" , "tomato","garlic", "potato"];
 console.log(veg.length);
 
 const mixdata =[20,30,"string","data", true];

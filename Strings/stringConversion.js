@@ -61,3 +61,16 @@ console.log("hello" - 5);    // NaN (cannot convert "hello" to a valid number)
 console.log("10" * "2");     // 20
 console.log("100" / "10");   // 10
 console.log("10" % 3);       // 1
+
+
+//
+let sum;
+for(let i=1;i<=100;i++)
+{
+    sum=i%2;
+    if(sum!==0)
+    {
+      console.log(i);
+    }
+    
+}
