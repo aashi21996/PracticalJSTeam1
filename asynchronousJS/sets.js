@@ -37,3 +37,7 @@ letters.forEach((value) => {
     console.log(value);
 });
 
+
+const array= [1,4,4,4,4,5,6,6,2,2,3 ];
+const mid=[...new Set(array)];
+console.log(mid);

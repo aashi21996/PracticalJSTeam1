@@ -47,9 +47,9 @@ console.log(mid7,mid8);
 
 //substring(startIndex, endIndex):Similar to slice(), but negative values are treated as 0. If startIndex is greater than endIndex, it swaps the two arguments.
 let phrase1 = "JavaScript";
-// Index:     0123456789
-mid9=phrase1.substring(0, 4); // "Java"
-mid10=phrase1.substring(4, 0); // "Java" (swaps arguments automatically)
+// Index:      0123456789
+let mid9=phrase1.substring(0, 4); // "Java"
+let mid10=phrase1.substring(4, 0); // "Java" (swaps arguments automatically)
 console.log(mid10,mid9);
 
 //split(separator, limit):Splits a string into an array of substrings based on a separator.

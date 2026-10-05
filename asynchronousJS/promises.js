@@ -48,3 +48,48 @@ promise
     });
 
     //finally will always run
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //callback
+    function parent(name,callback){
+	   setTimeout(function(){
+	    console.log ("data");
+		jayash();
+		},4000);
+         }
+		 function jayash()
+		 {
+		 console.log("yes");
+		 }
+		 parent("ram",jayash);
+ 
+
+         //
+         const phone= new Promise((resolve,reject)=>{
+     const marks=80;
+	 setTimeout(function(){
+	    if(marks>90)
+		resolve("phone");
+		else
+		reject("nophone");
+		},5000);
+		});
+		phone
+		.then((message)=>{
+		console.log(message);})
+		
+		.catch((error)=>{
+		console.log(error);
+		});
+		

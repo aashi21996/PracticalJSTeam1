@@ -17,6 +17,7 @@ const produce = [...fruits, ...vegetables];
 console.log(produce); // ['apple', 'banana', 'carrot', 'potato']
 // Inserting elements in between
 const specificProduce = ['strawberry', ...fruits, 'tomato', ...vegetables];
+console.log(specificProduce); 
 
 // example 3
 const numbers = [2, 3, 4];
@@ -54,4 +55,4 @@ console.log(Math.max(...scores)); // 89
 const greeting = "Hello";
 const chars = [...greeting];
 console.log(chars); // ['H', 'e', 'l', 'l', 'o']
-
+console.log([...greeting]);

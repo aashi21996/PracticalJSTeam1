@@ -109,3 +109,7 @@ if (numberss.length === 0) {
   console.log("Min value:", min); // -4
   console.log("Max value:", max); // 99
 }
+
+
+
+

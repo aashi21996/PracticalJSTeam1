@@ -20,3 +20,6 @@ if(y)
 else{
     console.log("no need");
 } o/p- ss
+
+
+
