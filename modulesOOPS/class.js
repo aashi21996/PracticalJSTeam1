@@ -8,7 +8,7 @@ Constructor: A special method that executes automatically when an object is crea
 
 class run{
     constructor(walk,jump){
-        this.wail=walk;
+        this.walk=walk;
         this.jump=jump;
     }
 };
@@ -200,3 +200,41 @@ Car1.checkEngine(); // Output: Checking undefined
 //implicit
 
 
+console.log("01" == 1)
+
+
+for (let i = 1; i <= 5; i++) {
+
+    if (i === 4) {
+
+        break;
+
+    }
+
+    if (i === 3) {
+
+        continue;
+
+    }
+
+    console.log(i);
+
+} 
+
+console.log(10 + "5");
+
+console.log(10 - "5");
+
+console.log(10 * "5"); 
+
+
+
+// How would you convert "10,20,30" into an array? How would you convert that array back into a string?
+
+const arr = "10,20,30";
+const mid = arr.split(",").map(Number);
+console.log(mid);
+
+
+const mid2 = mid.join(",");
+console.log(mid2);

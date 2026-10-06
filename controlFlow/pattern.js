@@ -1,10 +1,10 @@
 //Left-Aligned Right Triangle
 
 let row=5;
-for(i=1; i<=row;i++)
+for(let i=1; i<=row;i++)
 {
     let pattern = "";
-for(j=1;j<=i;j++){
+for(let j=1;j<=i;j++){
     pattern= pattern + "*"
 }
 console.log(pattern);
@@ -14,13 +14,13 @@ console.log(pattern);
 //Right-Aligned Right Triangle
 
 let rows=5;
-for(i=1; i<=rows;i++)
+for(let i=1; i<=rows;i++)
 {
     let pattern = "";
-for(j=1;j<=rows-i;j++){
+for(let j=1;j<=rows-i;j++){
     pattern= pattern + " ";
 }
-for(k=1;k<=i;k++){
+for(let k=1;k<=i;k++){
     pattern=pattern + "*"
 }
 console.log(pattern);

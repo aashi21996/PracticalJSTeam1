@@ -1403,3 +1403,148 @@ console.log("done")
 }
 }
 result("passed1")
+
+
+
+let row=5;
+let count=1;
+for(let i=1;i<=row;i++)
+{   
+    let pattern="";
+    for(let j=1;j<=i;j++){
+        pattern=pattern+count+" ";
+        count++
+    }
+    console.log(pattern);
+}
+
+
+
+let row=5;
+for(let i=1;i<=row;i++)
+{
+    let pattern="";
+    for(let j=1;j<=row-i;j++){
+        pattern=pattern+" ";
+
+    }
+    for(let k=1;k<=i;k++){
+        pattern=pattern+"*";
+    }
+    console.log(pattern);
+}
+
+
+//
+let row=5;
+for(let i=1;i<=row;i++)
+{
+    let pattern="";
+    for(let j=1;j<=row-i;j++)
+    {
+        pattern=pattern+" ";
+    }
+    for(let k=1;k<=2*i-1;k++)
+    {
+        pattern=pattern+"*";
+    }
+    console.log(pattern);
+}
+
+let row=5;
+for(let i=row;i>=1;i--)
+{
+    let pattern="";
+    for(let j=1;j<=i;j++)
+    {
+        pattern=pattern+"*";
+    }
+    console.log(pattern);
+}
+
+
+//callback
+
+function parent(name,callback)
+{
+    setTimeout(()=>{
+console.log("hi",name);
+data();
+    },2000)
+}
+
+function data()
+{
+    console.log("hello");
+}
+parent("joe",data);
+console.log("no");
+
+
+//promise
+
+const phone=new Promise((resolve,reject)=>{
+    let marks=98;
+    setTimeout(()=>{
+if(marks>90)
+    resolve("get phone");
+else
+    reject("no phone");
+    },5000)
+});
+phone
+.then((message)=>{
+    console.log(message);
+})
+.catch((error)=>{
+    console.log(error);
+});
+
+
+//
+function data(){
+    return new Promise((resolve,reject)=>{
+        let c=10;
+        setTimeout(()=>{
+            if(c==10)
+                console.log("correct");
+            else
+                console.log("not correct");
+
+        },2000)
+    })
+}
+
+async function newdata(){
+    try{
+    console.log("hey");
+    const xyz=await data();
+    console.log(xyz);
+    }
+    catch(error){
+        console.log(error)
+
+    }
+    finally {
+        console.log("yes");
+
+    }
+}
+newdata();
+
+
+const array=[1,2,3,4,5];
+const mid =array.map((num)=>num*2);
+console.log(mid);
+
+
+const array=[1,2,3,4,5];
+const mid2=array.filter((num)=> num%2==0);
+console.log(mid2);
+
+const array=[1,2,3,4,5];
+const mid3=array.reduce((acc,num)=> acc+num,0);
+console.log(mid3);
+
+const y ="javascript";
+console.log(y.split(""));
