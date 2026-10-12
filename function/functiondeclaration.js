@@ -8,7 +8,7 @@ console.log(aashi(30));
 //Functions created inside an expression and assigned to a variable. They are created when the execution reaches them.
 const add = function (a,b,c)
 {
-    return a+b+c;
+    return a+b+c; 
 };
 console.log(add(1,2,3));
 
